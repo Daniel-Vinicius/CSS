@@ -1,0 +1,18 @@
+#d1, #d2, #d3, #p1 {
+    border: 10px dotted #000;
+    padding: 30px 20px 30px 22px;
+    background-image: url(Imagem2.jpg);
+}
+#d1 {
+    background-clip: border-box;
+}
+#d2 {
+    background-clip: padding-box;
+}
+#d3 {
+    background-clip: content-box;
+}
+
+#p1 {
+    border: solid
+}

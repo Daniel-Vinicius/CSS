@@ -1,0 +1,20 @@
+body {
+  background-image: url(Imagem.png), url(Imagem2.jpg);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 400px 100px, 100px 200px;
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-size: 200px 50px; // 400px na largura e 50 px na altura*/
+  background-color: #111111;
+}
+
+p {
+    background-image: url(Imagem2.jpg);
+    background-repeat: repeat-x;
+    background-size: 200px;
+    background-position: 50px 0px;
+    font-size: 40px;
+    color: #FFF;
+    font-family: sans-serif;
+}

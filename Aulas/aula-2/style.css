@@ -1,0 +1,16 @@
+p {
+    color: #d42828;
+}
+
+#p1 {
+    color: #0ba6ff
+}
+
+.txt {
+color: #db02d0;
+font-weight: lighter
+}
+
+span, p {
+    font-size: 30px
+}

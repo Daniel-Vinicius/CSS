@@ -1,0 +1,13 @@
+p {
+    color: #ae00ff;
+    background-color: #35002e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    max-width: 550px;
+}
+
+body {
+    background-color: #1a1919;
+}

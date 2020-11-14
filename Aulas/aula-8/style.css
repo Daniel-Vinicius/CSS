@@ -1,0 +1,24 @@
+#d1, #d2 {
+    width: 400px;
+    height: 400px;
+    background-color: #8400ff;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #ffffff;
+    border-radius: 20px;
+}
+
+#d2 {
+    float: right;
+    margin: 60px;
+}
+
+#d1 {
+    float: left;
+    margin: 60px;
+}
+
+
+body {
+    background-color: #2b2b22;
+}
