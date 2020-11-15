@@ -1,0 +1,15 @@
+p {
+   color: #ffffff;
+   font-family: sans-serif;
+   background-color: #9a11f5;
+}
+
+body {
+    background-color: #181717
+}
+
+p {
+    border: 30px solid;
+    border-image: url(Imagem.webp) 30 round;
+    border-radius: 90px;
+}

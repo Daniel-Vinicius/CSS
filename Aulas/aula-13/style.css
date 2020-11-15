@@ -1,0 +1,51 @@
+body {
+    background-color: #181717;
+    margin: 0px;
+}
+
+p {
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+div {
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    /* height: 500px;
+    width: 500px;
+    margin: auto; */
+
+}
+
+#d1 {
+    background-color: #0ea7ff;
+
+    margin-top: 120px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+
+    /*
+    Também pode-se fazer assim:
+
+    margin: 120px 60px 100px 70px;
+
+    equivalente há:
+
+    margin-top: 120px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+
+    */
+}
+
+#d2 {
+    background-color: #cc1212;
+
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 100px;
+    margin-left: 70px;
+}

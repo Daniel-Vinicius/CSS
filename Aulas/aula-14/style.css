@@ -1,0 +1,25 @@
+body {
+  background-color: #181717;
+  margin: 0px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+div {
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #9b06ff;
+}
+
+#d1 {
+  padding: 50px;
+  float: left;
+}
+
+#d2 {
+  padding: 100px;
+  float: right;
+}
