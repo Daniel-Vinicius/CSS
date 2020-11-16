@@ -1,4 +1,4 @@
-9- bordas (border) - Parte 4
+# 11- bordas (border) - Parte 4
 
 link: http://cfbcursos.com.br/css3-11-imagens-nas-bordas-border-image/
 

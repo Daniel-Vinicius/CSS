@@ -1,4 +1,4 @@
-6- background - Parte 3
+# 6- background - Parte 3
 
 link: http://cfbcursos.com.br/css3-4567-imagem-de-fundo-background-image/
 

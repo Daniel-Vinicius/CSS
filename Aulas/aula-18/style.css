@@ -1,0 +1,24 @@
+body {
+  background-color: #181717;
+  margin: 0px;
+}
+
+p {
+  margin: 50px;
+  color: #ffffff;
+  font-family: Nunito, Nunito-Regular, Poxa;
+  font-weight: normal;
+  font-size: 50px;
+  /* font-style: italic; */
+  /* font-variant: small-caps; */
+}
+
+@font-face {
+  font-family: Poxa;
+  src: url(POXADA.TTF)
+}
+
+@font-face {
+  font-family: Nunito-Regular;
+  src: url(Nunito-Regular.ttf)
+}

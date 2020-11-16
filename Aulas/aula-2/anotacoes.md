@@ -1,4 +1,4 @@
-2- Seletores CSS
+# 2- Seletores CSS
 
 link: http://cfbcursos.com.br/css3-2-seletores-css/
 

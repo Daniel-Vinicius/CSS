@@ -1,4 +1,4 @@
-9- bordas (border) - Parte 2
+# 10- bordas (border) - Parte 2
 
 link: http://cfbcursos.com.br/css3-10-bordas-arredondadas-border-radius/
 

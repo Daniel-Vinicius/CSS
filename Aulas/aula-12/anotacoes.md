@@ -1,4 +1,4 @@
-12- Cores RGB e transparência (alpha)
+# 12- Cores RGB e transparência (alpha)
 
 link: http://cfbcursos.com.br/css3-12-cores-rgb-transparencia/
 
