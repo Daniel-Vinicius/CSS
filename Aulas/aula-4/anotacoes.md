@@ -35,3 +35,7 @@ p {
 }
 
 ```
+
+    background-position: 50px 0px;
+
+    50 px de margin horizontal e 0 vertical

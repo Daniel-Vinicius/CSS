@@ -1,0 +1,43 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  background: url(Imagem2.jpg) no-repeat;
+  background-position: 100px 0px;
+  background-size: 1024px;
+  background-color: #03a4eeb9;
+}
+
+#objMenu {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #03a4ee;
+  padding: 0px;
+  margin: 0px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #FFFFFF;
+  background-color: #03a4eeb9;
+}
+
+nav {
+  margin: 10px;
+  width: 1200px;
+  height: 50px;
+  border: 5px solid #03a4ee;
+  border-radius: 4px;
+}
