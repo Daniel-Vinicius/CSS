@@ -1,0 +1,27 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+ol,
+ul {
+  margin-left: 500px;
+
+  /* list-style-image:url(
+    "./seta-direita.png"
+  ); Imagem */
+
+  list-style: none;
+  /* Sem nada */
+}
+
+.linha {
+  height: 5px;
+  background-color: #f0f0f0;
+  width: 100%;
+  border-radius: 10px;
+}

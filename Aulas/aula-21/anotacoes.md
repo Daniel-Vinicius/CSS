@@ -20,7 +20,7 @@ transform-origin: 100% 0%;
 
 **HTML:**
 
-```
+```html
   <body>
     <div id="d1">Olá</div>
   </body>
@@ -29,7 +29,7 @@ transform-origin: 100% 0%;
 
 **Css:**
 
-```
+```css
 body {
   color: #fff;
   font-family: Arial, sans-serif;

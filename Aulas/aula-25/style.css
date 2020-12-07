@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  background-color: #c04242;
+  border: 15px solid #ffffff;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 70px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  outline: solid 10px #c04242;
+  outline-offset: 10px;
+}
