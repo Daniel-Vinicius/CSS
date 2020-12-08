@@ -1,7 +1,7 @@
 # 1- Inserindo CSS na página HTML
 
-link: http://cfbcursos.com.br/css3-1-1-inserindo-codigo-css-na-pagina/
-link 2: http://cfbcursos.com.br/css3-1-2-a-sintaxe-de-uso-do-css-como-usar-o-css/
+[link](http://cfbcursos.com.br/css3-1-1-inserindo-codigo-css-na-pagina/)
+[link 2](http://cfbcursos.com.br/css3-1-2-a-sintaxe-de-uso-do-css-como-usar-o-css/)
 
 3 Formas, a melhor é a primeira css Externo
 
@@ -10,7 +10,7 @@ link 2: http://cfbcursos.com.br/css3-1-2-a-sintaxe-de-uso-do-css-como-usar-o-css
 Ele é inserido no head
 
 
-```
+```html
     <link rel="stylesheet" href="style.css" />   <!--CSS Externo-->
 
 ```
@@ -20,7 +20,7 @@ Ele é inserido no head
 Ele é inserido no head
 
 
-```
+```html
      <!--CSS Incorporado-->
        <style>
        </style>
@@ -32,7 +32,7 @@ Ele é inserido no head
 Ele é inserido na tag que eu quero formatar através da propriedade style
 
 
-```
+```html
      <!--CSS Inline-->
       <div style="background-color: #000;"></div>
 ```
