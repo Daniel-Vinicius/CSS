@@ -1,7 +1,7 @@
 # 3- Cores em Css
 
-link: http://cfbcursos.com.br/css3-3-cores/
-link 2: http://cfbcursos.com.br/css3-3-1-cor-de-fundo/
+[link](http://cfbcursos.com.br/css3-3-cores/)
+[link 2](http://cfbcursos.com.br/css3-3-1-cor-de-fundo/)
 
 
 O background-color, o border-radius e o max-width pode ser aplicado a qualquer elemento
