@@ -36,6 +36,57 @@ git clone https://github.com/Daniel-Vinicius/CSS
 
 # Quando Tiver uma dúvida olhe as anotações, links e exemplos do repositório
 
+# Ordem de propriedades CSS
+
+MENU CSS3
+1 – Introdução
+1.1 – Inserindo código CSS na página
+1.2 – A Sintaxe de uso do CSS. Como usar o CSS
+2 – Seletores
+3 – Cores em CSS
+3.1 – Cor de fundo, background-color
+4,5,6,7 – Imagem de fundo – background-image
+7.1 – Múltiplas imagens no background-image
+7.2 – Metapropriedade background
+8,9 – Bordas – border
+10 – Bordas arredondadas – border-radius
+11 – Imagens nas bordas – border-image
+12 – Cores RGB / Transparências
+13 – Margens e Centralização de elementos
+14 – Padding (margens internas)
+15 – Cores gradientes (degradês)
+16 – Sombras
+16.1 – Comentários de código
+16.2 – Width e Height (Largura e Altura)
+17 – Formatação para textos / parágrafos
+18 – Formatações para fontes
+19 – Formatações para links
+20 – Criando um menu simples
+21 – Transformações 2D
+22 – Transformações 3D
+23 – Formatações para listas
+23.1 – Criando um Menu Horizontal com o elemento lista
+24 – Formatando tabelas
+24.1 – nth-child() Alternando formatações
+25 – Outline
+26,27,28, 29 e 30 – Display
+31,32 – Display Flex (Desafio)
+33 – Position e Z-index
+34 – Float e Clear
+35 – Overflow
+36,37 – Pseudo-Elementos After e Before
+37.1 – Menu dropDown sem script
+38,39 – Transições / Transition
+40,41 – Animações (Keyframes)
+42 – Colunas
+43 – Resize
+44 – Box-sizing
+45,46,47 – Filter – Aplicando filtros
+48,49,50 – @media – layouts responsivos
+51,52,53,54 – Unidades de Medida
+55 – inherit e initial
+56 – CSS3 – Tabela geral de comandos CSS
+
 ````
  
 
