@@ -1,4 +1,4 @@
-# 31- Display Flex Desafio
+# 31 e 32- Display Flex Desafio
 
 [link](http://cfbcursos.com.br/css3-31-desafiodisplayflex/)
 

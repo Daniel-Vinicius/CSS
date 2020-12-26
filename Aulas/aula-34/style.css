@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border: 5px solid #ffffff;
+}
+
+#img1 {
+  float: left;
+}
+
+#img2 {
+  float: right;
+}
+
+.fix {
+  clear: both;
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+}
