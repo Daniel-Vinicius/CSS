@@ -1,6 +1,9 @@
 # 29- Display Parte 4
 
 [link](http://cfbcursos.com.br/css3-262728-e-29-display/)
+[Joguinho](https://flexboxfroggy.com/)
+
+**Com o Joguinho De cima eu aprendi muito sobre flexbox, se você esquecer e só jogar de novo**
 
 **Display Flex 2**
 
@@ -9,7 +12,7 @@ Aula Mais Importante de Display
 1- Com Display Flex a Propriedade Display será aplicada somente ao Container
 2- flex-wrap com valor wrap quebra a linha ao invés de diminuir o tamanho dos elementos filhos, quando não há espaço suficiente
 
-3- Para usar flex-wrap é nescessário um max-width no container, e também um width nos elementos filhos
+3- Para usar flex-wrap é recomendável um max-width no container, e também um width nos elementos filhos
 
 4- Tanto o justify-content quanto o align-items só funcionam no display flex
 
@@ -39,6 +42,13 @@ space-between: Linhas são posicionadas com espaço igual entre elas.
 space-around: Linhas são posicionadas com espaço igual em torno delas.
 stretch: Linhas se esticam para preencher o container.
 Isso pode ser confuso, mas align-content determina o espaçamento entre linhas, enquanto align-items determina como as linhas como um todo são alinhadas dentro do container. Quando há só uma linha, align-content não tem nenhum efeito.
+
+ex: 
+``css #algo { order: 1 } /* alinha totalmente a direita se for uma linha e totalmente a cima caso for uma coluna */``
+
+11- align-self
+
+é igual align items mas para somente um elemento específico
 
 propriedade:
 

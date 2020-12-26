@@ -9,7 +9,7 @@ Aula Mais Importante de Display
 1- Com Display Flex a Propriedade Display será aplicada somente ao Container
 2- flex-wrap com valor wrap quebra a linha ao invés de diminuir o tamanho dos elementos filhos, quando não há espaço suficiente
 
-3- Para usar flex-wrap é nescessário um max-width no container, e também um width nos elementos filhos
+3- Para usar flex-wrap é recomendado um max-width no container, e também um width nos elementos filhos
 
 4- Tanto o justify-content quanto o align-items só funcionam no display flex
 5- justify-content alinha horizontalmente 
