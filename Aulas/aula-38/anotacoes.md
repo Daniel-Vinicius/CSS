@@ -6,7 +6,7 @@
 
 1- Transition
 
-Faz uma transição leve e recebe um valor em segundos. Pode ser configurada mais detalhadamente com o transition-timing-function.
+Faz uma transição e recebe um valor em segundos. Pode ser configurada mais detalhadamente com o transition-timing-function que por sua vez controla o estilo de uma transição. Por exemplo uma transição que começa rápido e termina devagar como o ease-out ou ao contrário ease-in. Uma que vai sempre na mesma velocidade como linear ou uma que vai rápido no meio, o padrão como o ease.
 
 Ex: 
 

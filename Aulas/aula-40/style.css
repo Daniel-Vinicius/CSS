@@ -1,0 +1,71 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+}
+
+@keyframes anima1 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 900px;
+  }
+}
+
+@keyframes anima2 {
+  from {
+    top: 300px;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+@keyframes anima3 {
+  from {
+    background-color: #2f2f2f;
+    top: 50px;
+  }
+  to {
+    background-color: #379eda;
+    top: 50px;
+  }
+}
+
+@keyframes anima4 {
+  from {
+    background-color: #379eda;
+    top: 50px;
+  }
+  to {
+    background-color: #2f2f2f;
+    top: 300px;
+  }
+}
+
+p {
+  position: relative;
+  left: 900px;
+  top: 300px;
+  width: 260px;
+  height: 260px;
+  /**/
+  background-color: #2f2f2f;
+  border: 3px solid #379eda;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  /**/
+  /* Animações que você quer executar em ordem */
+  animation-name: anima1, anima2, anima3, anima4;
+  /* Também pode abreviar só com 2s pra todos */
+  animation-duration: 2s, 2s, 2s, 2s;
+  /* Esse é o delay para começar cada uma das animações */
+  animation-delay: 0s, 2s, 4s, 6s;
+  /* Esse é o estilo da animation */
+  animation-timing-function: ease-out, ease-in;
+}
