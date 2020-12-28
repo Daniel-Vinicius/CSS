@@ -73,7 +73,7 @@ MENU CSS3
 31,32 – Display Flex (Desafio)
 33 – Position e Z-index
 34 – Float e Clear
-35 – Overflow
+35 – Overflow e Barra de Rolagem
 36,37 – Pseudo-Elementos After e Before
 37.1 – Menu dropDown sem script
 38,39 – Transições / Transition
