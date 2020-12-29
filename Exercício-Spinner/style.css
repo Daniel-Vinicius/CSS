@@ -1,0 +1,32 @@
+body {
+  color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #222222;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.spin {
+  width: 60px;
+  height: 60px;
+  border: 8px solid #535353;
+  border-radius: 100%;
+  border-left-color: #e65e1f;
+  animation: spin 1s linear infinite;
+  margin-top: 30px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

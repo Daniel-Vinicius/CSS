@@ -1,0 +1,1 @@
+[Link pro Tutorial](https://willianjusten.com.br/como-criar-um-spinner-loader-com-css-puro-e-uma-div/)

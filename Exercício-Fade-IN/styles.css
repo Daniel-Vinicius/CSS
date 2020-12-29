@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background-color: #2f2f2f;
+  color: #fff;
+}
+
+.div {
+  border: 5px solid #ff891b;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.p {
+  text-align: justify;
+}
+
+.fader {
+  animation-name: anima;
+  animation-duration: 1.8s;
+  animation-delay: 0.2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes anima {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
