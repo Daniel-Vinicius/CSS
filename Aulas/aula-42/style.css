@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+}
+
+p {
+  position: relative;
+  left: 175px;
+  top: 0px;
+  width: 1200px;
+  height: 500px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: justify;
+  columns: 4;
+  column-gap: 50px;
+  column-rule: 5px outset #730aeb;
+}
