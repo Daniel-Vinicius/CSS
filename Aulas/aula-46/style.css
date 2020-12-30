@@ -1,0 +1,66 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #1e1e1f;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.logo1 {
+  /* Sintaxe: filter: drop-shadow(distanciaHorizontal distanciaVertical tamanho cor);*/
+  /* Sombra Estilo de Brilho */
+  /* filter: drop-shadow(0px 0px 10px #8409d0); */
+  /* Sombra Estilo de Sombra */
+  filter: drop-shadow(5px 5px 2px #8409d0);
+  /**/
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo2 {
+  filter: hue-rotate(307deg);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo3 {
+  filter: invert(1);
+  margin-top: 60px;
+  margin-left: 160px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo4 {
+  filter: opacity(10%);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo5 {
+  filter: saturate(800%);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo6 {
+  width: 300px;
+  filter: sepia(100%);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}

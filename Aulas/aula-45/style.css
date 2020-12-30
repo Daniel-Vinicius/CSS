@@ -1,0 +1,45 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #6f00ff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.logo1 {
+  filter: grayscale(100%);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo2 {
+  filter: blur(5px);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo3 {
+  filter: brightness(200%);
+  margin-top: 60px;
+  margin-left: 160px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}
+
+.logo4 {
+  filter: contrast(400%);
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-right: 40px;
+}

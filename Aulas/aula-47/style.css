@@ -1,0 +1,24 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  background-color: #1e1e1f;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+img {
+  width: 300px;
+}
+
+.img-edit {
+  filter: sepia(100%) blur(0.7px) grayscale(20%) saturate(150%) drop-shadow(0px 0px 30px #ffffff);
+}
