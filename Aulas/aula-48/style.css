@@ -1,0 +1,25 @@
+img {
+  width: 80%;
+}
+
+body {
+  background-color: #222;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) and (orientation: portrait) {
+  body {
+    background-color: #c22f2f;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) and (orientation: landscape) {
+  body {
+    background-color: #3879db;
+  }
+  img {
+    width: 100%;
+  }
+}

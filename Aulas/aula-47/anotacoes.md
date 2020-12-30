@@ -1,4 +1,4 @@
-# 46 - Filter - Parte 3
+# 47 - Filter - Parte 3
 
 [link](http://cfbcursos.com.br/css3-4546-e-47-filter/)
 

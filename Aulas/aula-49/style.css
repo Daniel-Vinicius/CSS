@@ -1,0 +1,54 @@
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  background-color: #2f2f2f;
+  font-weight: 500;
+}
+
+nav {
+  width: 200px;
+  float: left;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  background-color: #dd5555;
+  color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+article {
+  margin-left: 210px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  nav {
+    width: 100%;
+  }
+  article {
+    margin-left: 4px;
+  }
+  article p {
+    text-align: justify;
+  }
+  nav li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  nav li {
+    font-size: 20px;
+  }
+  article div {
+    float: left;
+  }
+}
