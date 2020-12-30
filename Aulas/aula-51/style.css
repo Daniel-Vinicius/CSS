@@ -1,0 +1,41 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  font-weight: 500;
+  overflow: auto;
+  font-size: 2em;
+}
+
+div {
+  display: inline-block;
+  border: 5px solid #ffffff;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#d1 {
+  background-color: #1e6dd4;
+  height: 80px;
+}
+
+#d2 {
+  background-color: #d41e1e;
+  height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 40px;
+  font-size: 0.75em;
+}
+
+#p3 {
+  font-size: 30px;
+  color: #9523d6;
+}
