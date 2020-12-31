@@ -23,7 +23,7 @@
 
 <h4  align="center">
 
-### Projeto em andamento 📢
+### Projeto em Finalizado 📢
 </h4>
 
 ### 📀Consultando o Repositório<a id="rodando"></a>
@@ -39,15 +39,10 @@ git clone https://github.com/Daniel-Vinicius/CSS
 # Ordem de propriedades CSS
 
 MENU CSS3
-1 – Introdução
-1.1 – Inserindo código CSS na página
-1.2 – A Sintaxe de uso do CSS. Como usar o CSS
+1 – Inserindo código CSS na página
 2 – Seletores
 3 – Cores em CSS
-3.1 – Cor de fundo, background-color
-4,5,6,7 – Imagem de fundo – background-image
-7.1 – Múltiplas imagens no background-image
-7.2 – Metapropriedade background
+4,5,6,7 – Background
 8,9 – Bordas – border
 10 – Bordas arredondadas – border-radius
 11 – Imagens nas bordas – border-image
@@ -55,9 +50,7 @@ MENU CSS3
 13 – Margens e Centralização de elementos
 14 – Padding (margens internas)
 15 – Cores gradientes (degradês)
-16 – Sombras
-16.1 – Comentários de código
-16.2 – Width e Height (Largura e Altura)
+16 – Sombras - Comentários de código - Width e Height (Largura e Altura)
 17 – Formatação para textos / parágrafos
 18 – Formatações para fontes
 19 – Formatações para links
@@ -65,9 +58,7 @@ MENU CSS3
 21 – Transformações 2D
 22 – Transformações 3D
 23 – Formatações para listas
-23.1 – Criando um Menu Horizontal com o elemento lista
-24 – Formatando tabelas
-24.1 – nth-child() Alternando formatações
+24 – Formatando tabelas - nth-child() Alternando formatações
 25 – Outline
 26,27,28, 29 e 30 – Display
 31,32 – Display Flex (Desafio)
@@ -75,7 +66,6 @@ MENU CSS3
 34 – Float e Clear
 35 – Overflow e Barra de Rolagem
 36,37 – Pseudo-Elementos After e Before
-37.1 – Menu dropDown sem script
 38,39 – Transições / Transition
 40,41 – Animações (Keyframes)
 42 – Colunas
@@ -101,10 +91,34 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) 
   
 
+
+## Como contribuir?
+
+Com o projeto na sua máquina, basta criar uma branch para a sua feature/correção
+
+```bash
+$ git checkout -b sua_branch
+```
+
+Realize as mudanças, e, depois disso, salve-as e envie para este repositório, com
+
+
+```bash
+$ git add .
+$ git commit -m 'conte o que você fez'
+$ git push origin sua-branch
+```
+
+Ao acessar esse repositório via github, a opção de criar um **pull request** estará disponível.
+
+
+
+## Licença
+Esse projeto se encontra sob a licença **MIT**. Para mais informações, acesse o arquivo **LICENSE**.
+
+---
+
 ### 👨‍💻Autor <a id="autor"> </a>
-
-  
-
 ---
 
 <a  href="https://github.com/Daniel-Vinicius"  style="text-decoration: none;">

@@ -10,7 +10,7 @@ O background-color, o border-radius e o max-width pode ser aplicado a qualquer e
 As cores abreviadas são dois digitos em 1 sendo assim FF0000 vermelho pode ser abreviado em F00
  F = FF, 0 = 00, e 0 = 00
 
-```
+```css
 p {
     color: #ae00ff;
     background-color: #35002e;

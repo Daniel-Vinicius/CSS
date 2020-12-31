@@ -8,7 +8,6 @@ body {
 h1 {
   margin-top: 75px;
   margin-left: 350px;
-
   color: #0a91ff;
   font-size: 50pt;
   font-family: Arial;
@@ -24,6 +23,5 @@ div {
   margin-left: 400px;
   background-color: #d82626;
   padding: 20px;
-
   box-shadow: -8px -8px 0px #ffffff70;
 }

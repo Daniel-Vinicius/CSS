@@ -16,7 +16,7 @@ Exemplo: `box-shadow: -8px -8px 0px #ffffff70;`
 
 ---
 
-```
+```css
 body {
   background-color: #181717;
   margin: 0px;

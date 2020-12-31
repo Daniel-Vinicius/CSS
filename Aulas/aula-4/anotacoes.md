@@ -12,7 +12,7 @@ link: http://cfbcursos.com.br/css3-4567-imagem-de-fundo-background-image/
 Eixo X é Horizontal e Y Vertical**
 
 
-```
+```css
 body {
   background-image: url(Imagem.png), url(Imagem2.jpg);
   background-size: 500px;
