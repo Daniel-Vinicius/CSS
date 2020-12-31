@@ -1,0 +1,53 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+p:first-child {
+  margin-top: 100px;
+}
+
+p {
+  margin-left: 50%;
+}
+
+#p1 {
+  /* Pixels */
+  font-size: 20px;
+}
+
+#p2 {
+  /*(pontos) 1pt = 1,333px */
+  font-size: 20pt;
+}
+
+#p3 {
+  /*(paicas) 1pc = 16px */
+  font-size: 1pc;
+}
+
+div {
+  border: 1px solid #ffffff;
+  margin-left: 50%;
+}
+
+#d1 {
+  /* Centimetro */
+  width: 2.54cm;
+  height: 2.54cm;
+}
+
+#d2 {
+  /* 1 Milimetro = 10/100cm */
+  width: 25.4mm;
+  height: 25.4mm;
+}
+
+#d3 {
+  /* 1 Polegada = 2.54cm */
+  width: 1in;
+  height: 1in;
+}

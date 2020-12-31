@@ -1,93 +1,90 @@
-# 51 - Unidades de medidas (pixel e em) - Parte 1
+# 54 - Unidades de medidas (cm, mm, pc, in) - Parte 4
 
 [link](http://cfbcursos.com.br/css3-51525354-unidades-de-medida/)
 
-**PX e EM**
+**CM, MM, PC, IN**
 
-PX e EM são unidades de medidas que podem ser aplicadas a qualquer elemento.
-Um EM é igual ao tamanho da fonte do elemento pai. Note que EM não é específico para medidas de fontes.
+**CM, MM, PC, IN** **Não São Recomendadas** para serem utilizadas na web devido aos seus problemas de responsividade.
 
-Exemplo:
 
-```html
-  <section class="pai">
-    <p id="pp1">Texto 1</p>
-    <p id="pp2">Texto 2</p>
-  </section>
-```
+* **1cm** = 37.7952px
+* **1mm** = 3.7795px
+* **1in** = 96px
+* **1pc** = 16px
+* **1pt** = 1.333
 
-```css
-.pai {
-  font-size: 1px;
-}
+---
 
-#pp1 {
-  font-size: 40px;
-}
+## Codeguins
 
-#pp2 {
-  font-size: 40em;
-}
-```
-
-Note que no exemplo acima os dois elementos p tem a mesma font-size.
-
-**Html:**
+---
 
 ```html
 <body>
-  <p id="p1">CFB Cursos</p>
-  <p id="p2">CFB Cursos</p>
-  <p id="p3">CFB Cursos</p>
+  <p id="p1">CFB Cursos - p1</p>
+  <p id="p2">CFB Cursos - p2</p>
+  <p id="p3">CFB Cursos - p3</p>
 
   <div id="d1"></div>
   <div id="d2"></div>
+  <div id="d3"></div>
 </body>
 ```
 
-**Css:**
 
 ```css
-html {
-  font-size: 20px;
-}
-
-body {
-  color: #fff;
-  font-family: Arial, sans-serif;
+html, body {
   padding: 0px;
   margin: 0px;
   background-color: #2f2f2f;
-  font-weight: 500;
-  overflow: auto;
-  font-size: 2em;
+  color: #fff;
+  font-family: Arial, sans-serif;
 }
 
-div {
-  display: inline-block;
-  border: 5px solid #ffffff;
-  width: 300px;
-  border-radius: 10px;
+p:first-child {
+  margin-top: 100px;
 }
 
-#d1 {
-  background-color: #1e6dd4;
-  height: 80px;
+p {
+  margin-left: 50%;
 }
 
-#d2 {
-  background-color: #d41e1e;
-  height: 2em;
+#p1 {
+  /* Pixels */
+  font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 40px;
-  font-size: 0.75em;
+#p2 {
+  /*(pontos) 1pt = 1,333px */
+  font-size: 20pt;
 }
 
 #p3 {
-  font-size: 30px;
-  color: #9523d6;
+  /*(paicas) 1pc = 16px */
+  font-size: 1pc;
+}
+
+div {
+  border: 1px solid #ffffff;
+  margin-left: 50%;
+}
+
+#d1 {
+  /* Centimetro */
+  width: 2.54cm;
+  height: 2.54cm;
+}
+
+#d2 {
+  /* 1 Milimetro = 10/100cm */
+  width: 25.4mm;
+  height: 25.4mm;
+}
+
+#d3 {
+  /* 1 Polegada = 2.54cm */
+  width: 1in;
+  height: 1in;
 }
 ```
 

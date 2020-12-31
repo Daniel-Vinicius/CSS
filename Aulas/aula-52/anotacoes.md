@@ -1,47 +1,51 @@
-# 51 - Unidades de medidas (pixel e em) - Parte 1
+# 52 - Unidades de medidas (pixel e em) - Parte 2
 
 [link](http://cfbcursos.com.br/css3-51525354-unidades-de-medida/)
 
-**PX e EM**
+**REM e %**
 
-PX e EM são unidades de medidas que podem ser aplicadas a qualquer elemento.
-Um EM é igual ao tamanho da fonte do elemento pai. Note que EM não é específico para medidas de fontes.
+REM e % são unidades de medidas que podem ser aplicadas a qualquer elemento.
+Um REM é igual ao tamanho da fonte do elemento :root ou html, font-size por padrão no html é 16px.
+A % é referente a porcentagem do elemento pai
+
+* **ATENÇÃOOOOO** REM não funcionará caso a font-size estiver no elemento pai, a font-size deve estar EXPLÍCITAMENTE NO ELEMENTO ROOT OU HTML DESSA FORMA:
+
+
+```css
+:root {
+  font-size: 10px;
+}
+
+/* OU */
+
+html {
+  font-size: 10px;
+}
+```
 
 Exemplo:
 
-```html
-  <section class="pai">
-    <p id="pp1">Texto 1</p>
-    <p id="pp2">Texto 2</p>
-  </section>
-```
+Note que no exemplo abaixo `#d1 tem 60x60rem` que equivale a `600x600px` pois no elemento `html` a propriedade `font-size` está setada com `10px`, logo mudando a `font-size` o tamanho de `#d1` também muda. O elemento de classe container tem 100% da largura e altura.
 
-```css
-.pai {
-  font-size: 1px;
-}
 
-#pp1 {
-  font-size: 40px;
-}
+Note que `#d4` tem a altura e largura setadas como 75%, 75% de seu elemento pai que é `#d3`, ou seja a porcentagem é referente a porcentagem do elemento pai.
 
-#pp2 {
-  font-size: 40em;
-}
-```
 
-Note que no exemplo acima os dois elementos p tem a mesma font-size.
+---
 
 **Html:**
 
 ```html
 <body>
-  <p id="p1">CFB Cursos</p>
-  <p id="p2">CFB Cursos</p>
-  <p id="p3">CFB Cursos</p>
-
-  <div id="d1"></div>
-  <div id="d2"></div>
+  <section class="container">
+    <div id="d1">
+      <div id="d2">
+        <div id="d3">
+          <div id="d4"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 ```
 
@@ -49,45 +53,64 @@ Note que no exemplo acima os dois elementos p tem a mesma font-size.
 
 ```css
 html {
-  font-size: 20px;
+  font-size: 10px;
 }
 
-body {
-  color: #fff;
-  font-family: Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
   background-color: #2f2f2f;
-  font-weight: 500;
-  overflow: auto;
-  font-size: 2em;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  color: #fff;
 }
 
 div {
-  display: inline-block;
   border: 5px solid #ffffff;
-  width: 300px;
   border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 #d1 {
   background-color: #1e6dd4;
-  height: 80px;
+  height: 60rem;
+  width: 60rem;
 }
 
 #d2 {
   background-color: #d41e1e;
-  height: 2em;
+  width: 75%;
+  height: 75%;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 40px;
-  font-size: 0.75em;
+#d3 {
+  background-color: #fbff15;
+  width: 75%;
+  height: 75%;
 }
 
-#p3 {
-  font-size: 30px;
-  color: #9523d6;
+#d4 {
+  background-color: #179e13;
+  width: 75%;
+  height: 75%;
 }
 ```
 

@@ -1,0 +1,33 @@
+* {
+  color: #7ec200;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #bedcff;
+  color: #002950;
+}
+
+#d1 {
+  color: #ff17ec;
+}
+
+#d2 {
+  color: #ff3c0b;
+}
+
+#d3 {
+  color: #198bb8;
+}
+
+h1, p {
+  color: inherit;
+  font-family: initial;
+}

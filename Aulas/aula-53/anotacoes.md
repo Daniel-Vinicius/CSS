@@ -1,93 +1,115 @@
-# 51 - Unidades de medidas (pixel e em) - Parte 1
+# 53 - Unidades de medidas (vw, vh, ex) - Parte 3
 
 [link](http://cfbcursos.com.br/css3-51525354-unidades-de-medida/)
 
-**PX e EM**
+**VW, VH, EX**
 
-PX e EM são unidades de medidas que podem ser aplicadas a qualquer elemento.
-Um EM é igual ao tamanho da fonte do elemento pai. Note que EM não é específico para medidas de fontes.
+**EX Não é recomendada** para ser utilizada devido aos seus problemas de quebra de layout.
+EX é igual ao EM só que para letras minúsculas.
 
-Exemplo:
+**VW, VH**
+* Um **VW** é igual 1/100 da largura da janela ou viewport width.
+* Um **VH** é igual 1/100 da altura da janela ou viewport height.
 
-```html
-  <section class="pai">
-    <p id="pp1">Texto 1</p>
-    <p id="pp2">Texto 2</p>
-  </section>
-```
+---
 
-```css
-.pai {
-  font-size: 1px;
-}
+## Exemplo com EX:
 
-#pp1 {
-  font-size: 40px;
-}
-
-#pp2 {
-  font-size: 40em;
-}
-```
-
-Note que no exemplo acima os dois elementos p tem a mesma font-size.
-
-**Html:**
+---
 
 ```html
-<body>
-  <p id="p1">CFB Cursos</p>
-  <p id="p2">CFB Cursos</p>
-  <p id="p3">CFB Cursos</p>
-
-  <div id="d1"></div>
-  <div id="d2"></div>
-</body>
+ <body>
+   <div id="d3"></div>
+    <p>xcfb</p>
+   <div id="d4"></div>
+    <p>XCFB</p>
+ </body>
 ```
 
-**Css:**
 
 ```css
-html {
-  font-size: 20px;
-}
+/* Exemplo de EM e EX */
 
-body {
-  color: #fff;
-  font-family: Arial, sans-serif;
+html, body {
   padding: 0px;
   margin: 0px;
   background-color: #2f2f2f;
-  font-weight: 500;
-  overflow: auto;
-  font-size: 2em;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
 }
 
-div {
+
+div, p {
   display: inline-block;
+}
+
+p {
+  font-size: 10em;
+  border: 1px solid #fff;
+}
+
+#d3 {
+  width: 10ex;
+  /* EX é igual ao EM só que para letras minúsculas */
+  height: 10ex;
+  background-color: #cf2d2d;
+}
+
+#d4 {
+  width: 10em;
+  height: 10em;
+  background-color: #2da9cf;
+}
+```
+---
+
+## Exemplo com VW e VH:
+
+---
+
+```html
+<body>
+  <div id="d1">
+    <div id="d2"></div>
+  </div>
+</body>
+```
+
+
+```css
+/* Exemplo de VH e VW: */
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #2f2f2f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+
+
+div {
   border: 5px solid #ffffff;
-  width: 300px;
   border-radius: 10px;
 }
 
 #d1 {
+  /* sempre que usar VW ou VH use box-sizing: border-box; */
+  box-sizing: border-box;
   background-color: #1e6dd4;
-  height: 80px;
+  padding: 30px;
+  /* 100/100 da largura da janela ou viewport width       */
+  width: 100vw;
+  /* 100/100 da altura da janela ou viewport height         */
+  height: 100vh;
 }
 
 #d2 {
   background-color: #d41e1e;
-  height: 2em;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 40px;
-  font-size: 0.75em;
-}
-
-#p3 {
-  font-size: 30px;
-  color: #9523d6;
+  width: 50%;
+  height: 50%;
 }
 ```
 
