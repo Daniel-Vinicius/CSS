@@ -1,0 +1,37 @@
+body {
+  background-color: #222222;
+  color: #fff;
+  font-family: Arial;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  outline: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* row-gap: 20px;
+  column-gap: 20px; */
+  gap: 20px;
+  /* gap: 4px 40px; Linhas depois colunas */
+}
+
+.item {
+  background-color: #ff4848;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}

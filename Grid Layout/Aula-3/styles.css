@@ -1,0 +1,47 @@
+body {
+  background-color: #222222;
+  color: #fff;
+  font-family: Arial;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  outline: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 50px 300px;
+  gap: 20px;
+}
+
+.item {
+  background-color: #ff4848;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.item1 {
+  /* grid-column-start: 1;
+  grid-column-end: 3; Vai Até o 3 e NÃO inclui o 3, logo ocupa 2 colunas */
+  /* grid-column: 1 / 4; 1 de start e 4 de end */
+  /* grid-column: 1 / span 4; span serve para dizer até onde tal item expande, só serve para grid-column */
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+  /* Vai Até o 3 e NÃO inclui o 3, logo ocupa 2 linhas */
+  grid-row: 1 / 3;
+}
